@@ -1,0 +1,13 @@
+{
+  "type": "preload-native",
+  "name": "Elytra Chestplate",
+  "author": "zxw",
+  "version": "1.0.0",
+  "entry": "libElytraChestplate.so",
+  "minecraft_versions": [
+    "26.60.*"
+  ],
+  "description": "Wear a chestplate and an elytra at the same time in singleplayer.",
+  "overwrite_files": [],
+  "overwrite_folders": []
+}
