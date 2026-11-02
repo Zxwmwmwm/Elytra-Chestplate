@@ -127,12 +127,12 @@ def verify_levipack(levipack_path):
         if manifest_data.get("name") != "Elytra Chestplate":
             print(f"  [FAIL] manifest name unexpected: {manifest_data.get('name')}")
             return False
-        print("  manifest.json name: 'Anywhere Riptide' -> PASS")
+        print("  manifest.json name: 'Elytra Chestplate' -> PASS")
 
-        if manifest_data.get("author") != "zxw":
+        if manifest_data.get("author") != "Zxwmwmwm":
             print(f"  [FAIL] manifest author unexpected: {manifest_data.get('author')}")
             return False
-        print("  manifest.json author: 'zxw' -> PASS")
+        print("  manifest.json author: 'Zxwmwmwm' -> PASS")
 
         if manifest_data.get("version") != "1.0.0":
             print(f"  [FAIL] manifest version unexpected: {manifest_data.get('version')}")
